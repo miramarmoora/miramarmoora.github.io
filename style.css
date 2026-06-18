@@ -1,16 +1,49 @@
-
 body {
-  background-color:#feddda;
+    background-color: #ffd6e7; /* light pink */
+    font-family: 'Bodoni Moda', serif;
+    color: #b03060; /* dark pink */
+    margin: 0;
+    padding: 40px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background-color: #ffe6f0;
+    border: 4px solid #b03060;
+    padding: 30px;
 }
 
 h1 {
-  color:#c63662;
-  text-align: center;
+    text-align: center;
+    font-size: 3rem;
+    border-bottom: 3px solid #b03060;
+    padding-bottom: 15px;
 }
 
 p {
-  font-family: bodoni moda;
-  font-size: 20px;
-  color:#c63662;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    border: 3px solid #b03060;
+    padding: 20px;
+    margin-top: 25px;
 }
 
+.links {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links a {
+    text-decoration: none;
+    color: #b03060;
+    border: 3px solid #b03060;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+}
+
+.links a:hover {
+    background-color: #b03060;
+    color: #ffd6e7;
+}
